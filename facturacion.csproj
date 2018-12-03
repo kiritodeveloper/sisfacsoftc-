@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8DEAC315-77DA-4BA5-97EC-126699E4FCAA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>facturacion</RootNamespace>
+    <AssemblyName>facturacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo %281%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.5.0.2, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Gma.QrCodeNet.Encoding">
+      <HintPath>..\..\Ventas\Ventas\bin\Debug\Gma.QrCodeNet.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="Hashid">
+      <HintPath>..\..\Hashid\Hashid\bin\Debug\Hashid.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\MySql.Data.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controladores\CCliente.cs" />
+    <Compile Include="Controladores\CCodigo.cs" />
+    <Compile Include="Controladores\CDetalleVenta.cs" />
+    <Compile Include="Controladores\CEmpresa.cs" />
+    <Compile Include="Controladores\CFactura.cs" />
+    <Compile Include="Controladores\CProducto.cs" />
+    <Compile Include="Controladores\CReporte.cs" />
+    <Compile Include="Controladores\CUsuarios.cs" />
+    <Compile Include="Controladores\CValidar.cs" />
+    <Compile Include="Controladores\CVenta.cs" />
+    <Compile Include="Controladores\Numeracion.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MetroBillCommands.cs" />
+    <Compile Include="Modelos\Conexion.cs" />
+    <Compile Include="Modelos\CMDetalle.cs" />
+    <Compile Include="Modelos\MClientes.cs" />
+    <Compile Include="Modelos\MCodigo.cs" />
+    <Compile Include="Modelos\MDetalleVenta.cs" />
+    <Compile Include="Modelos\MEmpresa.cs" />
+    <Compile Include="Modelos\MFactura.cs" />
+    <Compile Include="Modelos\MListaFactura.cs" />
+    <Compile Include="Modelos\MProducto.cs" />
+    <Compile Include="Modelos\MUsuario.cs" />
+    <Compile Include="Modelos\MVentas.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Empresa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\Empresa.Designer.cs">
+      <DependentUpon>Empresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FormListaFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormListaFactura.Designer.cs">
+      <DependentUpon>FormListaFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FormFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormFactura.Designer.cs">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\FormPerfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\FormPerfil.Designer.cs">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Impresor.cs" />
+    <Compile Include="Vistas\StartControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\StartControl.Designer.cs">
+      <DependentUpon>StartControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VCliente.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VCliente.Designer.cs">
+      <DependentUpon>VCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VCodigo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VCodigo.Designer.cs">
+      <DependentUpon>VCodigo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VFacturas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VFacturas.Designer.cs">
+      <DependentUpon>VFacturas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VListaVentas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VListaVentas.Designer.cs">
+      <DependentUpon>VListaVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VProducto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VProducto.Designer.cs">
+      <DependentUpon>VProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VReportes.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VReportes.Designer.cs">
+      <DependentUpon>VReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VUsuario.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VUsuario.Designer.cs">
+      <DependentUpon>VUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\VVentas.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\VVentas.Designer.cs">
+      <DependentUpon>VVentas.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vistas\FormListaFactura.resx">
+      <DependentUpon>FormListaFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FormPerfil.resx">
+      <DependentUpon>FormPerfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Report2.rdlc" />
+    <EmbeddedResource Include="Vistas\Empresa.resx">
+      <DependentUpon>Empresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\FormFactura.resx">
+      <DependentUpon>FormFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Report1.rdlc" />
+    <EmbeddedResource Include="Vistas\Report3.rdlc" />
+    <EmbeddedResource Include="Vistas\Report4.rdlc" />
+    <EmbeddedResource Include="Vistas\StartControl.resx">
+      <DependentUpon>StartControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VCliente.resx">
+      <DependentUpon>VCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VCodigo.resx">
+      <DependentUpon>VCodigo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VFacturas.resx">
+      <DependentUpon>VFacturas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VListaVentas.resx">
+      <DependentUpon>VListaVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VProducto.resx">
+      <DependentUpon>VProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VReportes.resx">
+      <DependentUpon>VReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VUsuario.resx">
+      <DependentUpon>VUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\VVentas.resx">
+      <DependentUpon>VVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Modelos.Mcliente2.datasource" />
+    <None Include="Properties\DataSources\Modelos.MClientes.datasource" />
+    <None Include="Properties\DataSources\Modelos.MDetalleVenta.datasource" />
+    <None Include="Properties\DataSources\Modelos.MListaFactura.datasource" />
+    <None Include="Properties\DataSources\Modelos.MProducto.datasource" />
+    <None Include="Properties\DataSources\Modelos.MUsuario.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arrow_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Banned_sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cellphone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pencil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Truck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_black.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User_male.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning_sign.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Occupations-Pizza-Deliveryman-Female-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Occupations-Pizza-Deliveryman-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recipe-pizza-icon %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recipe-pizza-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AttachFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CheckMark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorScheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewInvoice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PaperClip.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\titulo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo %281%29.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,142 @@
+c:\users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.exe.config
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.csprojResolveAssemblyReference.cache
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Form1.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Properties.Resources.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.csproj.GenerateResource.Cache
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.exe
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.pdb
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\MySql.Data.dll
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.exe
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.pdb
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.MainForm.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.Empresa.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCliente.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCodigo.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VProducto.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VVentas.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.StartControl.resources
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VUsuario.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.exe.config
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.exe
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.pdb
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.csprojResolveAssemblyReference.cache
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Form1.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.MainForm.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Properties.Resources.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.ClientControl.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.Empresa.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.StartControl.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCliente.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCodigo.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VFacturacion.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VProducto.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VUsuario.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VVentas.resources
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.csproj.GenerateResource.Cache
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.exe
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\facturacion.pdb
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Hashid.dll
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Hashid.pdb
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Hashid.xml
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Eison\Documents\Visual Studio 2012\Projects\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\Hashid.pdb
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\bin\Debug\Hashid.xml
+C:\Users\carlos\documents\visual studio 2012\Projects\facturacion\facturacion\obj\Debug\facturacion.Vistas.VListaVentas.resources
+G:\facturacion\facturacion\bin\Debug\facturacion.exe.config
+G:\facturacion\facturacion\obj\Debug\facturacion.exe
+G:\facturacion\facturacion\obj\Debug\facturacion.pdb
+G:\facturacion\facturacion\bin\Debug\facturacion.exe
+G:\facturacion\facturacion\bin\Debug\facturacion.pdb
+G:\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+G:\facturacion\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.xml
+G:\facturacion\facturacion\bin\Debug\Hashid.pdb
+G:\facturacion\facturacion\bin\Debug\Hashid.xml
+G:\facturacion\facturacion\obj\Debug\facturacion.csprojResolveAssemblyReference.cache
+G:\facturacion\facturacion\obj\Debug\facturacion.Form1.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.MainForm.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Properties.Resources.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.Empresa.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.StartControl.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCliente.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VCodigo.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VListaVentas.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VProducto.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VUsuario.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VVentas.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.csproj.GenerateResource.Cache
+G:\facturacion\facturacion\obj\Debug\RdlCompile.cache
+G:\facturacion\facturacion\obj\Debug\RdlCompile.compiled
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.form_imprimir.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VReportes.resources
+G:\facturacion\facturacion\bin\Debug\MySql.Data.xml
+G:\facturacion\facturacion\bin\Debug\System.Windows.Forms.dll
+G:\facturacion\facturacion\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\facturacion\facturacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.VFacturas.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.FormPerfil.resources
+G:\facturacion\facturacion\obj\Debug\facturacion.Vistas.FormListaFactura.resources
+G:\facturacion\facturacion\bin\Debug\DevComponents.DotNetBar2.dll
+G:\facturacion\facturacion\bin\Debug\DevComponents.DotNetBar2.xml
+G:\facturacion\facturacion\bin\Debug\Microsoft.ReportViewer.Common.dll
+G:\facturacion\facturacion\bin\Debug\Microsoft.CSharp.dll
+G:\facturacion\facturacion\bin\Debug\Microsoft.VisualBasic.dll
+G:\facturacion\facturacion\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.dll
+G:\facturacion\facturacion\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\facturacion.exe.config
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.exe
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.pdb
+C:\Users\kirito\Desktop\facturacion\bin\Debug\facturacion.exe
+C:\Users\kirito\Desktop\facturacion\bin\Debug\facturacion.pdb
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Microsoft.CSharp.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\System.Windows.Forms.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\DevComponents.DotNetBar2.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Hashid.pdb
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Hashid.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\Microsoft.VisualBasic.PowerPacks.Vs.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\MySql.Data.xml
+C:\Users\kirito\Desktop\facturacion\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.csprojResolveAssemblyReference.cache
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Form1.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.MainForm.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Properties.Resources.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.FormListaFactura.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.FormPerfil.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.Empresa.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.form_imprimir.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.StartControl.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VCliente.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VCodigo.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VFacturas.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VListaVentas.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VProducto.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VReportes.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VUsuario.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.Vistas.VVentas.resources
+C:\Users\kirito\Desktop\facturacion\obj\Debug\facturacion.csproj.GenerateResource.Cache

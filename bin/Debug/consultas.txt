@@ -1,0 +1,3 @@
+UPDATE `productos` SET `nombre`= concat('(',SUBSTRING(codigo, length(codigo), 1),')',' ',nombre) where id=157
+
+UPDATE `productos` SET codigo= upper(codigo)
